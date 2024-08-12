@@ -1,16 +1,15 @@
 name: auto_hyphe
 description: A text widget that automatically adds hyphenation. It was designed as a drop-in replacement for the default text widget. Added extra feature on auto_hyphenating_text package.
-version: 0.0.1
+version: 1.0.0
 homepage: https://github.com/ahmetOzturkSlim/auto-hyphe.git
 
 environment:
-  sdk: '>=2.19.6 <3.0.0'
-  flutter: ">=1.17.0"
+  sdk: '>=3.0.0 <=3.5.0'
 
 dependencies:
   flutter:
     sdk: flutter
-  hyphenator_impure: ^0.1.1
+  hyphenator_impure: ^0.1.4
 
 dev_dependencies:
   flutter_test:
